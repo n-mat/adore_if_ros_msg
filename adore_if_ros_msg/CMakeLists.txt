@@ -116,7 +116,6 @@ find_package(catkin REQUIRED COMPONENTS
    PointArray.msg
    Precedence.msg
    Proposition.msg
-   SchedulerNotification.msg
    SetPoint.msg
    SetPointRequest.msg
    SpeedLimit.msg
