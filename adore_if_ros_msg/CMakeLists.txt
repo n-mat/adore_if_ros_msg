@@ -97,6 +97,7 @@ find_package(catkin REQUIRED COMPONENTS
    BorderProgress.msg
    BorderTypeChangeProfile.msg
    Connection.msg
+   CooperativeLC.msg
    CooperativePlanning.msg
    CooperativePlanningSet.msg
    CooperativeUser.msg   
