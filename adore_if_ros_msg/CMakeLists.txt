@@ -108,6 +108,7 @@ find_package(catkin REQUIRED COMPONENTS
    LaneChangeGeometry.msg
    LaneFollowingGeometry.msg
    LaneGeometry.msg
+   LaneGeometryArray.msg
    LinearPiecewiseFunction1d.msg
    LinearPiecewiseFunction2d.msg
    LinearPiecewiseFunction3d.msg
