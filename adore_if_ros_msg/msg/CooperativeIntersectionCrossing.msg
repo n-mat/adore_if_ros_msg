@@ -16,8 +16,14 @@
 uint8 TYPE_REQUEST = 0
 uint8 TYPE_ACCEPT = 1
 uint8 TYPE_DECLINE = 2
+uint8 TYPE_INFO = 3
+uint8 TYPE_ABORT = 4
+
+uint8 VEHICLE_INTERNAL_INFO_NO_INFO = 0
+uint8 VEHICLE_INTERNAL_INFO_NOT_IN_CONFLICT = 11
 
 uint8 type
+uint8 vehicle_internal_info
 
 float64 x_start
 float64 y_start
@@ -29,3 +35,5 @@ float64 y_end
 uint32 id_sender
 uint32 id_addressee
 uint32 id_request
+
+string info_string
